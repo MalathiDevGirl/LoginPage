@@ -26,3 +26,8 @@ input:focus {
 ::placeholder {
     color: #ccc;
 }
+input[type=password]{
+    background-image: url('../../assests/eye.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
