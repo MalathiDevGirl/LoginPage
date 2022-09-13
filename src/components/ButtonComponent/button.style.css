@@ -1,0 +1,12 @@
+.signin {
+    background-color: white;
+    border: 1px solid #a7a1a1;
+    border-radius: 20px;
+    width: 106px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: grey;
+}

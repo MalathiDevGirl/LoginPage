@@ -1,0 +1,28 @@
+label{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.input-container {
+    display: block;
+}
+input[type=text],[type=email],[type=password] {
+    width: 100%;
+    padding: 15px 20px;  
+    margin: 8px 0;
+    font-size: 15px;   
+    box-sizing: border-box;
+    display: block;
+    border-radius: 5px;  
+    border: 1px solid #ccc;
+    color:black;
+}
+input:focus {
+    outline:none;
+    border: 2px solid rgb(100, 100, 253);
+    color: rgb(100, 100, 253);
+    font-weight: 600;         
+}
+::placeholder {
+    color: #ccc;
+}

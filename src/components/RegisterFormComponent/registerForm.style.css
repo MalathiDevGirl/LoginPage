@@ -1,0 +1,27 @@
+.form {
+    width: 25vw;
+    padding: 20px;
+}
+.header {
+    display:flex;
+    justify-content: flex-end;
+}
+.header-title {
+    color: grey;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.welcome-title {
+    font-size:34px;
+    font-weight:700px;
+}
+.register-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    margin-top: -25px;
+}
+.all-inputs {
+    margin-top: 30px;
+}

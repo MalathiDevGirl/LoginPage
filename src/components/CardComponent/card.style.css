@@ -1,0 +1,15 @@
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    background-color: white;
+    border: 1px solid #bacdd8;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+}
