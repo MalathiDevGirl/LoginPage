@@ -2,11 +2,24 @@
     background-color: white;
     border: 1px solid #a7a1a1;
     border-radius: 20px;
-    width: 106px;
+    width: 100px;
     height: 35px;
-    margin-left: 10px;
     margin-top: 10px;
     font-size: 12px;
     font-weight: 600;
     color: grey;
+    cursor: pointer;
+}
+.login {
+    width: 200px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(111 73 237);
+    letter-spacing: 1px;
+    border: 1px solid rgb(111 73 237);
+    box-shadow: 2px 2px #ededed;
+    cursor: pointer;
 }

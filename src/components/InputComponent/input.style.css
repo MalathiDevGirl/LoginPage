@@ -5,6 +5,7 @@ label{
 }
 .input-container {
     display: block;
+    margin-top: 40px;
 }
 input[type=text],[type=email],[type=password] {
     width: 100%;
@@ -18,16 +19,20 @@ input[type=text],[type=email],[type=password] {
     color:black;
 }
 input:focus {
-    outline:none;
-    border: 2px solid rgb(100, 100, 253);
-    color: rgb(100, 100, 253);
+    outline: 2px solid rgb(111 73 237);
+    color: rgb(111 73 237);
     font-weight: 600;         
 }
 ::placeholder {
     color: #ccc;
 }
-input[type=password]{
-    background-image: url('../../assests/eye.svg');
-    background-position: right;
-    background-repeat: no-repeat;
+.showHidePassword {
+    border: 1px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    opacity: 0.3;
+    position: relative;
+    top: -45px;
+    float: right;
+    right: 9px;
 }
